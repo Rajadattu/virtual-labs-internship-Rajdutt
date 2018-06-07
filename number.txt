@@ -1,0 +1,8 @@
+<script>
+	var num = prompt("Input a number: ");
+	var c=Math.floor((Math.random()*10)+1);
+	if(num==c)
+		document.write("Good Work"+c);
+	else
+		document.write("Not matched"+c);
+</script>

@@ -1,0 +1,5 @@
+<script>
+	var file=prompt("Enter filename with extension");
+	var fileExtension=file.substr((file.lastIndexOf('.')+1));
+		document.write(fileExtension);
+</script>
